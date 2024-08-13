@@ -45,7 +45,7 @@ The delay detection technique involves introducing a time delay before recognizi
 ## Repository Structure
 
 - `src/`: Contains the Verilog source files for the Timer, FSM, Synchronizer, and Debouncing Circuit modules.
-- `tb/`: Contains the test bench (`tb_debouncing_circuit.v`) and `do` file (`run.do`) for simulation.
+- `tb/`: Contains the test bench (`debouncing_circuit_tb.v`) and `do` file (`run.do`) for simulation.
 - `docs/`: Any additional documentation or diagrams related to the project.
 - `vivado/`: Contains Vivado project files and configuration.
 
