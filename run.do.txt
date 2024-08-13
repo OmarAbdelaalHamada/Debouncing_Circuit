@@ -1,6 +1,10 @@
 vlib work
 vlog Synchronizer.v Timer.v FSM.v Debouncing_Circuit.v Debouncing_Circuit_tb.v
-vsim -voptargs="+acc" work.Debouncing_Circuitr_tb
+vsim -voptargs="+acc" work.Debouncing_Circuit_tb
 add wave *
+add wave -position insertpoint  \
+sim:/Debouncing_Circuit_tb/DUT/timer/timer_en \
+sim:/Debouncing_Circuit_tb/DUT/timer/timer_done \
+sim:/Debouncing_Circuit_tb/DUT/timer/counter
 run -all
 #quit -sim
