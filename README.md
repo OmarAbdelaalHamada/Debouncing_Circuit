@@ -68,9 +68,6 @@ The delay detection technique involves introducing a time delay before recognizi
 2. Add the Verilog source files from the `src/` directory.
 3. Run synthesis, implementation, and generate the bitstream file.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
