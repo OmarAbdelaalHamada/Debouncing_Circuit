@@ -1,0 +1,6 @@
+vlib work
+vlog Synchronizer.v Timer.v FSM.v Debouncing_Circuit.v Debouncing_Circuit_tb.v
+vsim -voptargs="+acc" work.Debouncing_Circuitr_tb
+add wave *
+run -all
+#quit -sim
