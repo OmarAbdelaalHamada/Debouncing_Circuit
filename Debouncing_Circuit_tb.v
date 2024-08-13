@@ -7,7 +7,7 @@ parameter DELAY = COUNTER_FINAL_VALUE*PERIODE;
 Debouncing_Circuit DUT(clk,rst_n,noisy_in,debouncer_out);
 initial begin
     forever begin
-        #(DELAY/2) clk = ~clk;
+        #(PERIODE/2) clk = ~clk;
     end 
 end
 initial begin
@@ -21,8 +21,8 @@ end
 //initialization :
 task initialization(); 
     begin
-        clk = 0;
-        rst_n = 1;
+        clk = 1;
+        rst_n = 0;
         noisy_in = 0;
     end
 endtask

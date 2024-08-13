@@ -6,5 +6,7 @@ add wave -position insertpoint  \
 sim:/Debouncing_Circuit_tb/DUT/timer/timer_en \
 sim:/Debouncing_Circuit_tb/DUT/timer/timer_done \
 sim:/Debouncing_Circuit_tb/DUT/timer/counter
+add wave -position insertpoint  \
+sim:/Debouncing_Circuit_tb/DUT/Sync/sync_signal
 run -all
 #quit -sim
