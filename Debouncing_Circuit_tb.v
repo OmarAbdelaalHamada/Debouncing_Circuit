@@ -13,5 +13,7 @@ initial begin
     noisy_in = 1;
     #10
     rst_n = 1;
+    #10
+    $stop;
 end
 endmodule
